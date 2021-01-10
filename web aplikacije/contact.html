@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css">
+		<!-- meta elements -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta http-equiv="content-type" content="text/html, charset=utf-8">
+        <meta name="description" content="Ova web stranica je o umjetnoj inteligenciji">
+        <meta name="keywords" content="umjetna inteligencija, strojno učenje, analiza podataka">
+        <meta name="author" content="drakhel@vvg.hr">
+        <!-- favicon meta -->
+		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
+
+        <title> Umjetna inteligencija </title>
+
+    </head>
+
+    <body>
+        <header>
+            <div class="naslovna-slika"></div>
+            <nav>
+                <ul>
+                  <li><a href="index.html">Početna stranica</a></li>
+                  <li><a href="news.html">Novosti</a></li>
+                  <li><a href="contact.html">Kontakt</a></li>
+                  <li><a href="about-us.html">O nama</a></li>
+                  <li><a href="gallery.html">Galerija</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+        <h1>Obrazac za kontakt</h1>
+        <div id="contact">
+            <form action="action_page.html">
+                <iframe width="100%" height="400" src="https://maps.google.com/maps?q=vvg&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <br>
+
+                <label for="fname">Ime:</label>
+                <input type="text" id="fname" name="firstname" placeholder="Unesite ime" required>
+            
+                <label for="lname">Prezime:</label>
+                <input type="text" id="lname" name="lastname" placeholder="Unesite prezime" required>
+
+                <label for="email">E-mail adresa: </label>
+				<input type="email" id="email" name="email" placeholder="Unesite e-mail" required>
+            
+                <label for="country">Država:</label>
+                <select id="country" name="country">
+                  <option value="hrvatska">Hrvatska</option>
+                  <option value="bih">Bosna i Hercegovina</option>
+                  <option value="srbija">Srbija</option>
+                  <option value="slovenija">Slovenija</option>
+                  <option value="crnagora">Crna Gora</option>
+                  <option value="italija">Italija</option>
+                  <option value="mađarska">Mađarska</option>
+                </select>
+            
+                <label for="subject">Poruka:</label>
+                <textarea id="subject" name="subject" placeholder="Unesite tekst" style="height:200px"></textarea>
+            
+                <input type="submit" value="Pošalji">
+            
+              </form>
+            </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2021. Dario Rakhel</p>
+    </footer>
+</body>
+</html>
